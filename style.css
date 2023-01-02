@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #474E68;
+    background-color: #22272E;
     color: #fff;
 }
 
@@ -13,7 +13,7 @@ div {
 header,
 section,
 nav {
-    background-color: #404258;
+    background-color: #2D333B;
     color: #fff;
 }
 
