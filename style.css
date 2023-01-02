@@ -35,8 +35,9 @@ header h1 {
 
 header img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 header p {
