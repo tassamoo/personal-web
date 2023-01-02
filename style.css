@@ -112,15 +112,14 @@ nav a {
     font-size: 14px;
     font-weight: 600;
     transition: all 0.2s;
+    color: #fff;
 }
 
 nav a:hover {
-    color: #00b8d4;
+    color: #50577A;
 }
 
-nav a:visited {
-    color: #50577A; /* This will make the color of the links in the nav element stay blue after they have been clicked */
-  }
+
 
 main {
     max-width: 800px;
