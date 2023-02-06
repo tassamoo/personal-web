@@ -10,45 +10,15 @@ div {
     display: block;
   }
 
-
+/* section styles */
 section
 {
     background-color: #2D333B;
     color: #fff;
 }
 
-header {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    padding-top: 40px;
-    padding-bottom: 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-header img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-}
-
-header p {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 section {
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     border-radius: 15px;
@@ -56,7 +26,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -90,6 +60,38 @@ section blockquote cite {
     color: #777;
 }
 
+/* header styles */
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* nav styles */
 nav {
     display: flex;
     align-items: center;
@@ -110,7 +112,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     transition: all 0.2s;
     color: #fff;
@@ -120,8 +122,7 @@ nav a:hover {
     color: #50577A;
 }
 
-
-
+/* main styles */
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -130,21 +131,22 @@ main {
 
 main h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 main h3 {
     margin: 20px 0 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600
 }
 
+/* button */
 div button{
     font-family: sans-serif;
     background-color: #404258;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     transition: all 0.2s;
     border-radius: 8px;
     border-color: transparent;
@@ -156,11 +158,16 @@ div button:hover{
     color: #50577A;
 }
 
-
 #scroll-up-btn {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     position: center;
+  }
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
   }
